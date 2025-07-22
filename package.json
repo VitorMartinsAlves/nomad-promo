@@ -1,0 +1,32 @@
+{
+  "name": "alianca",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@gtm-support/vue-gtm": "^3.0.1",
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.10.0",
+    "bootstrap": "^5.3.3",
+    "moment": "^2.30.1",
+    "serve": "^14.2.4",
+    "vue": "^3.4.29",
+    "vue-loading-overlay": "^6.0.6",
+    "vue-router": "^4.4.0",
+    "vue-tel-input": "^9.3.0",
+    "vue3-carousel": "^0.3.3",
+    "vue3-toastify": "^0.2.2",
+    "vite": "^5.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.19",
+    "prettier": "^3.2.5",
+    "sass": "^1.77.6"
+  }
+}

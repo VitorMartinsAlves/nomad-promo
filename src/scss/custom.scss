@@ -1,0 +1,177 @@
+@import "../../node_modules/bootstrap/scss/functions";
+
+$body-bg: #F6F5F0;
+$body-color: #00223C;
+
+$font-family-sans-serif: "Roboto", sans-serif;
+
+$amarelo1: #FFB000;
+$amarelo2: #F5BA25;
+$gelo: #F6F5F0;
+$gelo1: #DCDEDC;
+$verde: #7BAE83;
+$marinho: #005EE2;
+$azul-escuro: #00223C;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body,
+.container-fluid {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1264px;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 70px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 62px;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+}
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 28px;
+}
+
+h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 28px;
+}
+
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.h7 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.h8 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.carousel__slide {
+    height: 330px;
+}
+
+.carousel__pagination-button::after {
+    display: block;
+    content: '';
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+}
+
+.carousel__pagination-button {
+    padding: 3px !important;
+}
+
+.carousel__pagination-button--active::after {
+    background-color: #FFB000 !important;
+}
+
+#a1,
+#a2,
+#np,
+#destinos {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 0;
+    margin-top: -40px;
+    background-color: transparent;
+    z-index: -1;
+}
+
+.vue-tel-input input::placeholder,
+.form input::placeholder {
+    // color: #fff;
+    opacity: 1;
+    font-size: 18px;
+    /* Firefox */
+}
+
+.vue-tel-input {
+    max-width: 320px;
+
+    padding: 11px 13px;
+    line-height: 1.6;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+input,
+input:focus {
+    background-color: #fff;
+}
+
+@media(max-width: 768px) {
+    .vue-tel-input {
+        margin-bottom: 0;
+    }
+
+    .vti__dropdown-list {
+        margin-left: -50px;
+        max-width: 85vw;
+    }
+}
+
+.vl-overlay.vl-active {
+    border-radius: 50px !important;
+    border: 1px solid rgba($color: #fff, $alpha: 0.5);
+}
