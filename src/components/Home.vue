@@ -26,14 +26,13 @@
 
         </div>
     </div>
-    <div style="background-color: #4557C7;" class="container-fluid w-full main">
+    <div style="background-color: #4557C7;" class="container-fluid w-full main up-why-bg">
         <div id="stop-plate-position" class="stop-plate">
-            <img style="width: 950px; margin: 6%;" src="../assets/card.png" alt="">
+            <img class="mobile-image" style="width: 950px; margin: 6%;" src="../assets/card.png" alt="">
+            <img class="block-on-desktop" style="width: 100%;position: relative; top: 40px;" src="../assets/card-mobile.svg" alt="">
         </div>
-        <div class="container">
+        <div class="container why">
             <h2 style="color: white;" class="text-center">Por que escolher a Aliança?</h2>
-        </div>
-        <div class="container">
             <div style="padding-top: 50px;" class="cards-container">
                 <div class="card">
                     <div class="card-flex">
@@ -78,7 +77,7 @@
         <div class="faq-section">
 
             <div style="display: flex; flex-direction: column; align-items: center;" class="container">
-                <img style="width: 65%;" class="faq-card" src="../assets/card-faq.svg" alt="">
+                <img style="width: 65%;" class="faq-card mobile-image" src="../assets/card-faq.svg" alt="">
                 <div class='center-main'>
                     <div class="titulo">
                         <h2>Mais de <span style="color: #0084D5;">300 mil alunos</span>
@@ -813,6 +812,15 @@ form {
 }
 
 @media(max-width: 768px) {
+    .why{
+        background-image: url("../assets/mobile-bg.svg");
+        background-color: white;
+        background-size: cover;
+        background-position: center;
+    }
+    .why h2 {
+        padding-top: 60px;
+    }
     .mobile-image {
         display: none;
     }
@@ -866,9 +874,9 @@ form {
         margin-top: 0px;
     }
 
-    .stop-plate {
-        display: none;
-    }
+    // .stop-plate {
+    //     display: none;
+    // }
 
     form {
         margin-top: 0;
