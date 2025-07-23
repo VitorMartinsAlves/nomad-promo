@@ -74,7 +74,8 @@
                 </div>
             </div>
         </div>
-        <img src="../assets/middle-card.svg" class="block-on-desktop" style="position:relative; width: 100vw;margin-top: -200px;margin-bottom: -300px;" alt="">
+        <img src="../assets/middle-card.svg" class="block-on-desktop"
+            style=" position: relative;width: 100vw;margin-top: -204px;margin-bottom: -330px;" alt="">
 
         <div class="faq-section">
 
@@ -853,7 +854,7 @@ form {
         gap: unset;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 90px
+        margin-bottom: 230px
     }
 
     .sub-text {
@@ -934,7 +935,7 @@ form {
 
     .faq-section {
         margin-top: -290px;
-        padding-top: 600px;
+        padding-top: 580px;
         background-color: #001821;
     }
 
