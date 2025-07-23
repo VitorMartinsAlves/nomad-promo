@@ -188,6 +188,7 @@ p {
     }
 
     #logo2 {
+        margin-top: 220px;
         display: block;
         width: 40%;
         margin-bottom: 10px;

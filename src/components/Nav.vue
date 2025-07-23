@@ -15,20 +15,20 @@
         </router-link>
 
         <a style="margin-left: 200px;" class="nav-link" href="#stop-plate-position">
-            Por que escolher?
+          Por que escolher?
         </a>
         <a class="nav-link" href="#depoimentos">
-            Depoimentos
+          Depoimentos
         </a>
         <a class="nav-link" href="#faq-pos">
-            FAQ
+          FAQ
         </a>
         <a class="nav-link" href="#kids-pos">
-            Aliança Kids
+          Aliança Kids
         </a>
-        <!-- <a id="stuped-button" href="#form-pos">
-          <Button>Aula Experimental</Button>
-        </a> -->
+        <a id="stuped-button" href="#form-pos">
+          <button>Começar agora</button>
+        </a>
       </div>
     </div>
   </nav>
@@ -39,6 +39,9 @@ import Button from '../components/utils/Button.vue'
 </script>
 
 <style lang="scss" scoped>
+#stuped-button {
+  display: none;
+}
 
 nav {
   margin-top: 40px;
@@ -70,9 +73,25 @@ nav {
 }
 
 @media (max-width: 768px) {
-  #stuped-button {
-    display: none;
+  button {
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #5D6DDA;
+    padding: 10px;
+    // margin-top: 23px;
+    // text-align: center;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: relative;
   }
+
+  #stuped-button {
+
+    display: block;
+  }
+
   .btWrap {
     width: 170px;
   }

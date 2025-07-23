@@ -17,7 +17,7 @@
                             Na Aliança você tem flexibilidade, qualidade e resultados comprovados.
                         </strong>
                     </p>
-                    <a href="#titulo-pos">
+                    <a class="mobile-image" href="#titulo-pos">
                         <button style="width: 130%;">Quero saber mais</button>
                     </a>
                 </div>
@@ -92,10 +92,12 @@
 
                         </p>
                     </div>
-                    <img src="../assets/nomad-man.png" alt="">
+                    <img class="mobile-image" src="../assets/nomad-man.png" alt="">
                 </div>
-                <img id="depoimentos" style="user-select: none;width: 100%; margin-top: 60px;"
+                <img id="depoimentos" class="mobile-image" style="user-select: none;width: 100%; margin-top: 60px;"
                     src="../assets/depoimento.svg" alt="">
+                <img id="depoimentos" class="block-on-desktop" style="user-select: none;width: 100%; margin-top: 60px;"
+                    src="../assets/depoimento-mobile.svg" alt="">
             </div>
             <div id="faq-pos" class="container faq-space">
                 <h2 style="color: #0084D5;">Perguntas frequentes</h2>
@@ -197,9 +199,9 @@
         </div>
     </div>
     <div class="container-fluid w-full main">
-        <div class="container">
-            <div class='center-main'>
-                <div id="titulo-pos" class="titulo">
+        <div class="container ">
+            <div class='center-main '>
+                <div id="titulo-pos" class="titulo mobile-titulo">
                     <h2>Quer <span style="color: #0084D5;">transformar sua
                             carreira na Xp</span> com o inglês?
                     </h2>
@@ -234,10 +236,14 @@
                         <button style="width: 130%;">Quero saber mais</button>
                     </a> -->
                 </div>
-                <img class="secont-img" style="" src="../assets/nomad-woman.png" alt="">
+                <img class="secont-img mobile-image" style="" src="../assets/nomad-woman.png" alt="">
             </div>
             <a href="#titulo-pos">
-                <img id="kids-pos" style="width: 100%; padding-top: 90px;" src="../assets/last-card.svg" alt="">
+                <img id="kids-pos" class="mobile-image" style="width: 100%; padding-top: 90px;"
+                    src="../assets/last-card.svg" alt="">
+                <img class="block-on-desktop"
+                    style="width: 100%; padding-top: 25px;top: 340px;position:relative;z-index: 999;"
+                    src="../assets/last-card-mobile.svg" alt="">
             </a>
         </div>
         <img id="Selo-globo2" src="../assets/Selo-globo.svg" alt="Selo-globo2">
@@ -544,7 +550,9 @@ iframe {
 }
 
 .faq-space h2 {
-    margin: 100px;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
     font-size: 60px;
 }
 
@@ -796,7 +804,29 @@ form {
     justify-content: space-between;
 }
 
+.block-on-desktop {
+    display: none;
+}
+
+.mobile-image {
+    display: block;
+}
+
 @media(max-width: 768px) {
+    .mobile-image {
+        display: none;
+    }
+
+    .block-on-desktop {
+        display: block;
+    }
+
+    .faq-space h2 {
+
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 1.5rem;
+    }
 
     .faq-section h2 {
         color: #FF368F;
@@ -891,9 +921,11 @@ form {
 
     .faq-section {
         margin-top: -290px;
-        padding-top:600px;
+        padding-top: 600px;
         background-color: #001821;
     }
+
+
 
     .faq-space {
         width: unset;
@@ -909,6 +941,7 @@ form {
     .titulo p {
         width: 100%;
         font-size: 1rem;
+        text-align: center;
     }
 
     .titulo img {
@@ -919,6 +952,10 @@ form {
         margin-top: -40px;
     }
 
+    .mobile-titulo {
+        margin-bottom: -245px;
+    }
+
     .titulo h2 {
         // margin-top: -30px;
         width: 100%;
@@ -926,7 +963,8 @@ form {
     }
 
     .faq-section .titulo h2 {
-        font-size: 34px;
+        font-size: 28px;
+        text-align: center;
     }
 
     h2 {
@@ -934,9 +972,9 @@ form {
 
     }
 
-    .titulo button {
-        display: none;
-    }
+    // .titulo button {
+    //     display: none;
+    // }
 
     .border-h {
         border-radius: 16px;
