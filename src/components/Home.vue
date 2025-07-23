@@ -29,7 +29,8 @@
     <div style="background-color: #4557C7;" class="container-fluid w-full main up-why-bg">
         <div id="stop-plate-position" class="stop-plate">
             <img class="mobile-image" style="width: 950px; margin: 6%;" src="../assets/card.png" alt="">
-            <img class="block-on-desktop" style="width: 100%;position: relative; top: 40px;" src="../assets/card-mobile.svg" alt="">
+            <img class="block-on-desktop" style="width: 100%;position: relative; top: 40px;"
+                src="../assets/card-mobile.svg" alt="">
         </div>
         <div class="container why">
             <h2 style="color: white;" class="text-center">Por que escolher a Aliança?</h2>
@@ -73,6 +74,7 @@
                 </div>
             </div>
         </div>
+        <img src="../assets/middle-card.svg" class="block-on-desktop" style="position:relative; width: 100vw;margin-top: -200px;margin-bottom: -300px;" alt="">
 
         <div class="faq-section">
 
@@ -812,15 +814,17 @@ form {
 }
 
 @media(max-width: 768px) {
-    .why{
+    .why {
         background-image: url("../assets/mobile-bg.svg");
         background-color: white;
         background-size: cover;
         background-position: center;
     }
+
     .why h2 {
         padding-top: 60px;
     }
+
     .mobile-image {
         display: none;
     }
@@ -849,6 +853,7 @@ form {
         gap: unset;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: 90px
     }
 
     .sub-text {
@@ -971,6 +976,7 @@ form {
     }
 
     .faq-section .titulo h2 {
+        margin-top: -200;
         font-size: 28px;
         text-align: center;
     }
