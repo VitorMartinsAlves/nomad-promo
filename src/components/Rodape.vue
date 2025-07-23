@@ -23,10 +23,13 @@
                     o primeiro dia no idioma. Tudo isso
                     online e com professor particular!</p>
                 <div style="display: flex;">
-                    <img id="logo" src="../assets/Logotipo.svg" alt="Alianca logo">
+                    <img id="logo" src="../assets/logo-botton.svg" alt="Alianca logo">
                     <img id="logo2" src="../assets/Hashtag.svg" alt="Alianca logo">
+                     <img style="margin-left: 40px; width:120px;" id="hashtag" src="../assets/Hashtag.png" alt="Hashtag">
                 </div>
                 <!-- <img id="hashtag2" src="../assets/Hashtag.png" alt="Hashtag"> -->
+               
+
 
             </div>
 
@@ -34,7 +37,7 @@
 
                 <div class="col2">
                     <div id="in">
-                        <a href="https://www.instagram.com/aliancaxp?igsh=b3owc2J4bTlpa2l1" target="_blank">
+                        <a href="https://www.instagram.com/aliancaamerica" target="_blank">
                             <img id="instagram" src="../assets/instagram.svg" alt="Instagram Logo">
                         </a>
                     </div>
@@ -46,13 +49,12 @@
                     </div>
 
                     <div id="fb">
-                        <a href="https://www.facebook.com/aliancaexp" target="_blank">
+                        <a href="https://www.facebook.com/aliancaamerica" target="_blank">
                             <img id="facebook" src="../assets/facebook.svg" alt="Facebook Logo">
                         </a>
                     </div>
                 </div>
 
-                <!-- <img id="hashtag" src="../assets/Hashtag.png" alt="Hashtag"> -->
 
             </div>
 
@@ -65,11 +67,15 @@
 
 <style lang="scss" scoped>
 a {
-    color: #00223C;
+    color: #4557C7;
 
     :hover {
         color: #00223C;
     }
+}
+
+img {
+    filter: brightness(0) invert(1);
 }
 
 #fb img {
@@ -149,7 +155,7 @@ a {
 }
 
 .footer {
-    background-color: #fff;
+    background-color: #4557C7;
     padding: 100px 100px 200px 100px;
     position: relative;
 }

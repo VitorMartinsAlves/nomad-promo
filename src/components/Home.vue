@@ -4,89 +4,104 @@
             <Nav />
             <div class='center-main'>
                 <div class="titulo">
-                    <h2 style="color: white; padding-top: 60px;">Você já perdeu oportunidades <span
-                            style="color: #FF368F;">por não falar inglês?</span></h2>
-                    <p style="color: white;margin-top: 40px; font-size: 20px;">
-                        Aprenda inglês de verdade com aulas particulares e foco em conversação.
+                    <h2>Xp e Aliança juntas para você aprender
+                        <span style="color: #0084D5;"> inglês do jeito certo
+                            e 100% online!</span>
+                    </h2>
+                    <p>
+                        Colaboradores da Xp e familiares agora contam com condições exclusivas para aprender inglês
+                        online e personalizado.
                     </p>
+                    <p style="margin-top: 20px;">
+                        <strong>
+                            Na Aliança você tem flexibilidade, qualidade e resultados comprovados.
+                        </strong>
+                    </p>
+                    <a href="#">
+                        <button style="width: 130%;">Quero saber mais</button>
+                    </a>
                 </div>
+                <img class="first-img" src="../assets/nomad-image-01.svg" alt="">
             </div>
-            <iframe class="border-h" src="https://www.youtube.com/embed/PIjglFwMm0k?autoplay=1&mute=1"></iframe>
-            <div id="hold-form-contet">
-                <img id="image-form" style="width: 578px;height: 686px;" src="../assets/girl-laptop.png" alt="">
-                <form id="form-pos" class="border-h text-white-h" @submit.prevent="submitLead">
-                    <div class="form-content" style="display: flex;flex-direction: column;">
-                        <h3 style="color: white;">Agende uma aula experimental <span style="color: #00A2E1;">100% <br>
-                                gratuita.</span></h3>
-                        <p>Garanta até 30% de desconto.</p>
-                        <input v-model="formData.name" type="text" placeholder="Nome" required>
-                        <input v-model="formData.email" type="email" placeholder="E-mail" required>
-                        <div style="display: flex; justify-content: space-between;">
-                            <select style="width: 20%;" v-model="formData.whatsappCountryCode" id="countryCode"
-                                required>
-                                <option value="" disabled>DDI</option>
-                                <option v-for="country in countries" :key="country.cca2" :value="country.ddi">
-                                    +{{ country.ddi }}
-                                </option>
-                            </select>
-                            <input style="width: 78%;" v-model="formData.whatsapp" type="tel" placeholder="Whatsapp (ex: 11999999999)"
-                                required>
-                        </div>
-                        <button type="submit">Quero minha aula experimental</button>
-                    </div>
-                </form>
-            </div>
+
         </div>
+    </div>
+    <div style="background-color: #4557C7;" class="container-fluid w-full main">
         <div id="stop-plate-position" class="stop-plate">
-            <div class="container">
-                <h2 class="text-center">Chega de curso enrolado.<br>Aqui o resultado é real!</h2>
-                <p class="sub-text"><span style="color: #FF368F;">Chega de tentar aprender inglês e não ter
-                        resultado.</span> Aqui você aprende o que você quer e precisa agora. Seja para ganhar mais no
-                    mercado de trabalho, para fazer uma viagem ou até uma prova, <span style="color: #00A2E1;">a Aliança
-                        é o lugar certo.</span></p>
-            </div>
-            <div class="container">
-                <div style="padding-top: 50px;" class="cards-container">
-                    <div class="card">
-                        <div class="card-flex">
-                            <img src="../assets/imersao.svg" alt="Imersão">
-                            <h3>Imersão</h3>
-                        </div>
-                        <p>Já ouviu falar que você só aprende inglês morando fora, sabia que de certa forma não é
-                            mentira? Aqui na Aliança você tem aulas praticamente todo dia o que simula essa imersão no
-                            inglês.</p>
+            <img style="width: 950px; margin: 6%;" src="../assets/card.png" alt="">
+        </div>
+        <div class="container">
+            <h2 style="color: white;" class="text-center">Por que escolher a Aliança?</h2>
+            <p class="sub-text"><span style="color: #FF368F;">Chega de tentar aprender inglês e não ter
+                    resultado.</span> Aqui você aprende o que você quer e precisa agora. Seja para ganhar mais no
+                mercado de trabalho, para fazer uma viagem ou até uma prova, <span style="color: #00A2E1;">a Aliança
+                    é o lugar certo.</span></p>
+        </div>
+        <div class="container">
+            <div style="padding-top: 50px;" class="cards-container">
+                <div class="card">
+                    <div class="card-flex">
+                        <!-- <img src="../assets/imersao.svg" alt="Imersão"> -->
+                        <h3>Aulas 100% Personalizadas</h3>
                     </div>
-                    <div class="card">
-                        <div class="card-flex">
-                            <img src="../assets/flexibilidade.svg" alt="Flexibilidade">
-                            <h3>Flexibilidade</h3>
-                        </div>
-                        <p>Você está no comando, você escolhe o horário e decide a carga horária, a gente te ajuda a ter
-                            a melhor experiência.</p>
+                    <p>Cada aluno recebe um
+                        plano de estudo feito sob medida,
+                        alinhado às suas metas
+                        profissionais e necessidades específicas.</p>
+                </div>
+                <div class="card">
+                    <div class="card-flex">
+                        <!-- <img src="../assets/flexibilidade.svg" alt="Flexibilidade"> -->
+                        <h3>Professores Qualificados</h3>
                     </div>
-                    <div class="card">
-                        <div class="card-flex">
-                            <img src="../assets/personalizado.svg" alt="Personalizado">
-                            <h3>Personalizado</h3>
-                        </div>
-                        <p>Aqui você aprende o que você precisa, chega de curso decoreba, a Aliança personaliza a
-                            experiência para você. Temos todos os planos de estudos para você sair falando.</p>
+                    <p>Todos os nossos professores
+                        têm vasta experiência em ensino
+                        e fluência em inglês corporativo.</p>
+                </div>
+                <div class="card">
+                    <div class="card-flex">
+                        <!-- <img src="../assets/personalizado.svg" alt="Personalizado"> -->
+                        <h3>Flexibilidades de Horários</h3>
                     </div>
-                    <div class="card">
-                        <div class="card-flex">
-                            <img src="../assets/conexao.svg" alt="Conexão">
-                            <h3>Conexão</h3>
-                        </div>
-                        <p>Você já ficou horas assistindo um vídeo sobre inglês pra não lembrar nada depois? Aqui você
-                            vai ter um professor particular pra tirar TODAS as suas dúvidas e deixar a experiência
-                            diferenciada.</p>
+                    <p>As aulas podem ser agendadas conforme a conveniência do aluno,
+                        sem comprometer sua rotina de trabalho.</p>
+                </div>
+                <div class="card">
+                    <div class="card-flex">
+                        <!-- <img src="../assets/conexao.svg" alt="Conexão"> -->
+                        <h3>Foco em Habilidades Práticas</h3>
                     </div>
+                    <p>Ensinamos o que realmente
+                        importa para o dia a dia
+                        corporativo, como comunicação
+                        em reuniões, apresentações e negociações em inglês.</p>
                 </div>
             </div>
         </div>
+
         <div id="faq-pos" class="faq-section">
+
+            <div style="display: flex; flex-direction: column; align-items: center;" class="container">
+                <img style="width: 65%;" class="faq-card" src="../assets/card-faq.svg" alt="">
+                <div class='center-main'>
+                    <div class="titulo">
+                        <h2>Mais de <span style="color: #0084D5;">300 mil alunos</span>
+                            já alcançaram a fluência
+                            com a Aliança <span style="color: #0084D5;">e agora chegou sua vez!</span>
+                        </h2>
+                        <p>
+                            Mais de 300 mil alunos já confiaram em nosso método para aprender inglês. Aumente sua
+                            produtividade, melhore a comunicação e ganhe confiança ao
+                            se comunicar em inglês.
+
+                        </p>
+                    </div>
+                    <img src="../assets/nomad-man.png" alt="">
+                </div>
+                <img style="user-select: none;width: 100%; margin-top: 60px;" src="../assets/depoimento.svg" alt="">
+            </div>
             <div class="container faq-space">
-                <h2>Ainda têm dúvidas?</h2>
+                <h2 style="color: #0084D5;">Perguntas frequentes</h2>
                 <div class="faq-item" v-for="(faq, i) in faqs">
                     <button class="faq-question">Quais os 04 diferenciais da Aliança? <span>▾</span></button>
                     <div class="faq-answer">
@@ -173,18 +188,61 @@
                         <p>Assim, o módulo proposto será ajustado através de uma análise do perfil de cada aluno.</p>
                     </div>
                 </div>
-                <div style="display: flex;flex-direction: column; text-align: center;align-items: center;"
+                <!-- <div style="display: flex;flex-direction: column; text-align: center;align-items: center;"
                     class="whatsapp-section">
                     <h3 style="color: #FF368F;" class="text-pink">Precisa de ajuda?</h3>
                     <p>Clique agora no botão e fale com um dos nossos especialistas!</p>
                     <a href="#">
                         <img style="margin-top: 20px;" src="../assets/btn-whatsapp.svg" alt="WhatsApp Logo">
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
+    </div>
+    <div class="container-fluid w-full main">
+        <div class="container">
+            <div class='center-main'>
+                <div class="titulo">
+                    <h2>Quer <span style="color: #0084D5;">transformar sua
+                            carreira na Xp</span> com o inglês?
+                    </h2>
+                    <p>
+                        Entre em contato com nosso time e descubra como podemos
+                        criar um plano de aprendizado exclusivo para você.
+                    </p>
+                    <p style="margin-top: 20px;">
+                        <strong>
+                            <span style="color: #0084D5;"> Garanta a fluência que você precisa para alcançar resultados
+                                globais!</span>
+                        </strong>
+                    </p>
+
+                    <form id="form-pos" class="border-h text-white-h" @submit.prevent="submitLead">
+                        <div class="form-content" style="display: flex;flex-direction: column;">
+                            <input v-model="formData.name" type="text" placeholder="Nome" required>
+                            <input v-model="formData.email" type="email" placeholder="E-mail" required>
+                            <input v-model="formData.whatsapp" type="tel" placeholder="+55 Whatsapp" required>
+                            <p v-if="successMessage" style="color: #00FF00; margin-top: 10px;">Contato enviado com
+                                sucesso!
+                            </p>
+
+                            <button type="submit" :disabled="isLoading">
+                                <span v-if="isLoading" class="loader"></span>
+                                <span v-else>Quero saber mais</span>
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- <a href="#">
+                        <button style="width: 130%;">Quero saber mais</button>
+                    </a> -->
+                </div>
+                <img class="secont-img" style="" src="../assets/nomad-woman.png" alt="">
+            </div>
+            <img style="width: 100%; padding-top: 90px;" src="../assets/last-card.svg" alt="">
+        </div>
         <img id="Selo-globo2" src="../assets/Selo-globo.svg" alt="Selo-globo2">
-        <div class="container-fluid w-full bg-rodape">
+        <div style="background-color: #4557C7; color: white;" class="container-fluid w-full bg-rodape">
             <div id="rodape">
                 <div class="container">
                     <Rodape id="rod" />
@@ -239,7 +297,9 @@ export default {
                 email: '',
                 whatsapp: '',
                 whatsappCountryCode: '+55' // Default to Brazil
-            }
+            },
+            successMessage: false,
+            isLoading: false
         }
     },
     methods: {
@@ -253,8 +313,14 @@ export default {
         },
         async submitLead() {
             try {
-                const phoneNumber = this.formData.whatsapp.replace(/\D/g, '')
+                this.isLoading = true
+                let phoneNumber = this.formData.whatsapp.replace(/\D/g, '');
+                const countryCode = this.formData.whatsappCountryCode.replace(/\D/g, '');
+                if (phoneNumber.startsWith(countryCode)) {
+                    phoneNumber = phoneNumber.slice(countryCode.length);
+                }
                 const response = await axios.post('https://martinsdash.discloud.app/api/hide-api', {
+                    // const response = await axios.post('http://0.0.0.0:8080/api/hide-api', {
                     name: this.formData.name,
                     email: this.formData.email,
                     primaryPhoneNumber: phoneNumber,
@@ -266,9 +332,15 @@ export default {
                     }
                 })
                 this.formData = { name: '', email: '', whatsapp: '', whatsappCountryCode: '+55' }
+                this.successMessage = true
+                setTimeout(() => {
+                    this.successMessage = false
+                }, 3000)
             } catch (error) {
                 console.error('Erro ao criar lead:', error.response?.data || error.message)
                 alert('Erro ao criar lead. Verifique os dados e tente novamente.')
+            } finally {
+                this.isLoading = false
             }
         }
     },
@@ -294,17 +366,49 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-form button {
-    font-size: 24px;
+h1,
+h2,
+h3 {
+    color: black;
+}
+
+button {
+    font-size: 20px;
     font-weight: 500;
-    background-color: #00A2E1;
+    background-color: #5D6DDA;
     padding: 20px;
     margin-top: 23px;
-    text-align: center;
-    border-radius: 45px;
+    // text-align: center;
+    border-radius: 25px;
     border: none;
     color: white;
     cursor: pointer;
+    position: relative;
+}
+
+form button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #ffffff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .stop-plate h2 {
@@ -321,19 +425,6 @@ form h3 {
     width: 60%;
 }
 
-form button {
-    font-size: 24px;
-    font-weight: 500;
-    background-color: #00A2E1;
-    padding: 20px;
-    margin-top: 23px;
-    text-align: center;
-    border-radius: 45px;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
 .card-flex {
     width: unset;
     display: unset;
@@ -342,22 +433,72 @@ form button {
 }
 
 .center-main {
+    margin-top: 10%;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .titulo {
+    color: black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 60%;
+    justify-content: baseline;
+    align-items: baseline;
+    text-align: left;
+
+}
+
+.t-size {
+    // width: 1120%;
+}
+
+.titulo h2 {
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 20px;
 }
 
 .titulo p {
-    width: 60%;
+    // width: 60%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.first-img {
+    width: 65%;
+    height: 65%;
+}
+
+.secont-img {
+    margin-top: 100px;
+    width: 55%;
+    height: 55%;
+}
+
+.faq-section .titulo h2 {
+    font-size: 60px;
+    color: white;
+    text-align: left;
+
+}
+
+.faq-card {
+    position: relative;
+    top: -130px;
+    margin-bottom: -180px;
+}
+
+.faq-section .titulo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.faq-section img {
+    width: 45%;
 }
 
 iframe {
@@ -367,7 +508,7 @@ iframe {
 }
 
 .faq-section {
-    background-color: #000;
+    background-color: #001821;
     color: #fff;
     padding: 60px 20px;
     font-family: sans-serif;
@@ -381,7 +522,7 @@ iframe {
 }
 
 .faq-item {
-    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
 }
 
 .faq-question {
@@ -390,7 +531,7 @@ iframe {
     border: none;
     width: 100%;
     text-align: left;
-    padding: 20px 0;
+    padding: 10px 0;
     font-size: 1rem;
     cursor: pointer;
     display: flex;
@@ -400,6 +541,11 @@ iframe {
 
 .faq-space {
     width: 50%;
+}
+
+.faq-space h2 {
+    margin: 100px;
+    font-size: 60px;
 }
 
 .faq-question span.icon {
@@ -447,81 +593,95 @@ iframe {
 .cards-container {
     display: flex;
     gap: 24px;
+    margin-bottom: 180px;
 }
 
 .card h3 {
     margin-top: 15px;
-    color: #FF368F;
-    font-size: 30px;
-    font-weight: 400;
+    color: #4557C7;
+    font-size: 25px;
+    font-weight: 600;
 }
 
-.card:hover h3 {
-    color: white;
-    transition: 0.2s;
-}
+// .card:hover h3 {
+//     color: white;
+//     transition: 0.2s;
+// }
 
 .card p {
     margin-top: 15px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .card {
     border: solid 0.5px rgba(255, 255, 255, 0.185);
     padding: 20px;
     border-radius: 36px;
-    background-color: #11111D;
+    background-color: #ffffff;
     width: 280px;
+    text-align: center;
 }
 
-.card:hover {
-    background-color: #00A2E1;
-    transition: 0.2s;
-}
+// .card:hover {
+//     background-color: #00A2E1;
+//     transition: 0.2s;
+// }
 
 .stop-plate {
-    margin-top: 80px;
+    background-color: #FDFCF5;
+    margin-top: -40px;
+    top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("../assets/bg-middle.png");
+    background-image: url("../assets/arco-aster.svg");
     background-size: cover;
-    height: 770px;
+    background-position: 0% -65%;
+    background-repeat: no-repeat;
+    // height: 770px;
 }
 
 form input,
 form select {
-    background-color: black;
-    color: white;
+    background-color: rgba(0, 0, 0, 0);
+
+    color: rgb(0, 0, 0);
     border: 0;
-    border-radius: 16px;
+    border-radius: 26px;
     padding: 30px;
     height: 74px;
     margin-top: 10px;
 }
 
-.form-content {
-    margin: 40px;
+form input::placeholder {
+    color: black;
+    font-weight: 500;
 }
+
+form input {
+    border: solid 1px black;
+    // width: 40%;
+}
+
 
 .text-white-h {
     color: white;
 }
 
 .border-h {
-    border-radius: 36px
+    // border-radius: 36px
 }
 
 form {
-    width: 50%;
-    background-color: #11111dce;
-    border: solid 0.5px rgba(255, 255, 255, 0.185);
+    width: 70%;
+    // background-color: #11111dce;
+
 }
 
 .bg-blue {
-    top: -40px;
-    background-color: #0D1019;
-    background-image: url("../assets/bg-helder.png");
+    // top: -40px;
+    background-color: #FDFCF5;
+    // background-image: url("../assets/arco.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -554,8 +714,6 @@ form {
     margin-top: 0;
     top: 4890px
 }
-
-.main {}
 
 .w-full {
     width: 100%;
@@ -696,6 +854,7 @@ form {
     form select {
         border-radius: 100px;
         height: 0px;
+
     }
 
     iframe {
@@ -737,6 +896,10 @@ form {
 
     .titulo p {
         width: 90%;
+    }
+
+    .titulo img {
+        // width: 200px;
     }
 
     #hold-form-contet {

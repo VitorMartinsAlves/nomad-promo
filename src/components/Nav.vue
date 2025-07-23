@@ -11,18 +11,24 @@
       <div class="navbar-nav d-flex justify-content-between align-items-center w-100">
 
         <router-link to="/">
-          <img id="logo" src="../assets/logo_alianca.svg" alt="logo Aliança">
+          <img id="logo" src="../assets/logo-alianca-nomad.svg" alt="logo Aliança">
         </router-link>
 
-        <a style="margin-left: 500px;" class="nav-link" href="#stop-plate-position">
-            Diferenciais
+        <a style="margin-left: 200px;" class="nav-link" href="#stop-plate-position">
+            Por que escolher?
+        </a>
+        <a class="nav-link" href="#faq-pos">
+            Depoimentos
         </a>
         <a class="nav-link" href="#faq-pos">
             FAQ
         </a>
-        <a id="stuped-button" href="#form-pos">
-          <Button>Aula Experimental</Button>
+        <a class="nav-link" href="#faq-pos">
+            Aliança Kids
         </a>
+        <!-- <a id="stuped-button" href="#form-pos">
+          <Button>Aula Experimental</Button>
+        </a> -->
       </div>
     </div>
   </nav>
@@ -45,12 +51,12 @@ nav {
 
   a,
   a:visited {
-    color: white;
+    color: black;
     text-decoration: none;
   }
 
   a:hover {
-    color: #fff;
+    // color: #fff;
   }
 }
 
