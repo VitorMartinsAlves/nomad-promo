@@ -17,7 +17,7 @@
                             Na Aliança você tem flexibilidade, qualidade e resultados comprovados.
                         </strong>
                     </p>
-                    <a href="#">
+                   <a href="#titulo-pos">
                         <button style="width: 130%;">Quero saber mais</button>
                     </a>
                 </div>
@@ -79,7 +79,7 @@
             </div>
         </div>
 
-        <div id="faq-pos" class="faq-section">
+        <div class="faq-section">
 
             <div style="display: flex; flex-direction: column; align-items: center;" class="container">
                 <img style="width: 65%;" class="faq-card" src="../assets/card-faq.svg" alt="">
@@ -98,9 +98,10 @@
                     </div>
                     <img src="../assets/nomad-man.png" alt="">
                 </div>
-                <img style="user-select: none;width: 100%; margin-top: 60px;" src="../assets/depoimento.svg" alt="">
+                <img id="depoimentos" style="user-select: none;width: 100%; margin-top: 60px;"
+                    src="../assets/depoimento.svg" alt="">
             </div>
-            <div class="container faq-space">
+            <div id="faq-pos" class="container faq-space">
                 <h2 style="color: #0084D5;">Perguntas frequentes</h2>
                 <div class="faq-item" v-for="(faq, i) in faqs">
                     <button class="faq-question">Quais os 04 diferenciais da Aliança? <span>▾</span></button>
@@ -202,7 +203,7 @@
     <div class="container-fluid w-full main">
         <div class="container">
             <div class='center-main'>
-                <div class="titulo">
+                <div id="titulo-pos" class="titulo">
                     <h2>Quer <span style="color: #0084D5;">transformar sua
                             carreira na Xp</span> com o inglês?
                     </h2>
@@ -239,7 +240,9 @@
                 </div>
                 <img class="secont-img" style="" src="../assets/nomad-woman.png" alt="">
             </div>
-            <img style="width: 100%; padding-top: 90px;" src="../assets/last-card.svg" alt="">
+            <a href="#titulo-pos">
+                <img id="kids-pos" style="width: 100%; padding-top: 90px;" src="../assets/last-card.svg" alt="">
+            </a>
         </div>
         <img id="Selo-globo2" src="../assets/Selo-globo.svg" alt="Selo-globo2">
         <div style="background-color: #4557C7; color: white;" class="container-fluid w-full bg-rodape">

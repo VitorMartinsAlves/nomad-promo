@@ -17,13 +17,13 @@
         <a style="margin-left: 200px;" class="nav-link" href="#stop-plate-position">
             Por que escolher?
         </a>
-        <a class="nav-link" href="#faq-pos">
+        <a class="nav-link" href="#depoimentos">
             Depoimentos
         </a>
         <a class="nav-link" href="#faq-pos">
             FAQ
         </a>
-        <a class="nav-link" href="#faq-pos">
+        <a class="nav-link" href="#kids-pos">
             Aliança Kids
         </a>
         <!-- <a id="stuped-button" href="#form-pos">
