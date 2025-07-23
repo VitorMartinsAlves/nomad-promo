@@ -17,7 +17,7 @@
                             Na Aliança você tem flexibilidade, qualidade e resultados comprovados.
                         </strong>
                     </p>
-                   <a href="#titulo-pos">
+                    <a href="#titulo-pos">
                         <button style="width: 130%;">Quero saber mais</button>
                     </a>
                 </div>
@@ -32,10 +32,6 @@
         </div>
         <div class="container">
             <h2 style="color: white;" class="text-center">Por que escolher a Aliança?</h2>
-            <p class="sub-text"><span style="color: #FF368F;">Chega de tentar aprender inglês e não ter
-                    resultado.</span> Aqui você aprende o que você quer e precisa agora. Seja para ganhar mais no
-                mercado de trabalho, para fazer uma viagem ou até uma prova, <span style="color: #00A2E1;">a Aliança
-                    é o lugar certo.</span></p>
         </div>
         <div class="container">
             <div style="padding-top: 50px;" class="cards-container">
@@ -486,6 +482,7 @@ form h3 {
 
 }
 
+
 .faq-card {
     position: relative;
     top: -130px;
@@ -800,6 +797,7 @@ form {
 }
 
 @media(max-width: 768px) {
+
     .faq-section h2 {
         color: #FF368F;
     }
@@ -823,8 +821,11 @@ form {
         width: 100%;
     }
 
+
+
     .stop-plate h2 {
-        font-size: 24px;
+        font-size: 34px;
+
         width: 100%;
         text-align: center;
         margin-top: -40px;
@@ -833,6 +834,10 @@ form {
     .stop-plate {
         background-image: unset;
         margin-top: 0px;
+    }
+
+    .stop-plate {
+        display: none;
     }
 
     form {
@@ -878,12 +883,16 @@ form {
 
     .center-main {
         display: flex;
-        justify-content: left;
+        flex-direction: column;
+        align-items: center;
+        // text-align: center;
     }
 
+
     .faq-section {
-        margin-top: 590px;
-        background-color: #000112;
+        margin-top: -290px;
+        padding-top:600px;
+        background-color: #001821;
     }
 
     .faq-space {
@@ -893,12 +902,13 @@ form {
     .titulo {
         margin-top: -20px;
         width: 100%;
-        text-align: left;
+        text-align: center;
         align-items: baseline;
     }
 
     .titulo p {
-        width: 90%;
+        width: 100%;
+        font-size: 1rem;
     }
 
     .titulo img {
@@ -910,10 +920,22 @@ form {
     }
 
     .titulo h2 {
-        margin-top: -30px;
-        text-align: left;
-        width: 70%;
+        // margin-top: -30px;
+        width: 100%;
         font-size: 34px;
+    }
+
+    .faq-section .titulo h2 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 34px;
+
+    }
+
+    .titulo button {
+        display: none;
     }
 
     .border-h {
@@ -921,8 +943,8 @@ form {
     }
 
     .bg-blue {
-        background-image: url("../assets/bg-mobile.png");
-        background-color: #000112;
+        // background-image: url("../assets/bg-mobile.png");
+        background-color: #FDFCF5;
     }
 
     h1 {

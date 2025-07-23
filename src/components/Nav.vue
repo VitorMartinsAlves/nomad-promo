@@ -78,7 +78,7 @@ nav {
   }
 
   #logo {
-    max-width: 140px;
+    max-width: 190px;
     // left:20px;
   }
 
