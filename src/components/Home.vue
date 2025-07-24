@@ -5,11 +5,11 @@
             <div class='center-main'>
                 <div class="titulo">
                     <h2>Nomad e Aliança juntas para você aprender
-                        <span style="color: #FFCF00;"> inglês do jeito certo
+                        <span style="color: #FFCF00;"> inglês e espanhol do jeito certo
                             e 100% online!</span>
                     </h2>
                     <p>
-                        Clientes da Nomad e familiares agora contam com condições exclusivas para aprender inglês
+                        Clientes da Nomad e familiares agora contam com condições exclusivas para aprender inglês e espanhol
                         online e personalizado.
                     </p>
                     <p style="margin-top: 20px;">
@@ -52,7 +52,7 @@
                     </div>
                     <p>Todos os nossos professores
                         têm vasta experiência em ensino
-                        e fluência em inglês corporativo.</p>
+                        e fluência em inglês e espanhol corporativo.</p>
                 </div>
                 <div class="card">
                     <div class="card-flex">
@@ -70,7 +70,7 @@
                     <p>Ensinamos o que realmente
                         importa para o dia a dia
                         corporativo, como comunicação
-                        em reuniões, apresentações e negociações em inglês.</p>
+                        em reuniões, apresentações e negociações em inglês e espanhol.</p>
                 </div>
             </div>
         </div>
@@ -88,9 +88,9 @@
                             com a Aliança <span style="color: #FFCF00;">e agora chegou sua vez!</span>
                         </h2>
                         <p>
-                            Mais de 300 mil alunos já confiaram em nosso método para aprender inglês. Aumente sua
+                            Mais de 300 mil alunos já confiaram em nosso método para aprender inglês e espanhol. Aumente sua
                             produtividade, melhore a comunicação e ganhe confiança ao
-                            se comunicar em inglês.
+                            se comunicar em inglês e espanhol.
 
                         </p>
                     </div>
@@ -181,7 +181,7 @@
                     </div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-question">O curso da Aliança é um curso complementar (para quem faz inglês na
+                    <button class="faq-question">O curso da Aliança é um curso complementar (para quem faz inglês e espanhol na
                         escola)? <span>▾</span></button>
                     <div class="faq-answer">
                         <p>Não. O curso oferecido pela Aliança é um curso completo e pensado para quem já tem ou não
@@ -205,7 +205,7 @@
             <div class='center-main '>
                 <div id="titulo-pos" class="titulo mobile-titulo">
                     <h2>Quer <span style="color: #FFCF00;">transformar sua
-                            carreira na Nomad</span> com o inglês?
+                            carreira na Nomad</span> com o inglês e espanhol?
                     </h2>
                     <p>
                         Entre em contato com nosso time e descubra como podemos
