@@ -9,7 +9,8 @@
                             e 100% online!</span>
                     </h2>
                     <p>
-                        Clientes da Nomad e familiares agora contam com condições exclusivas para aprender inglês e espanhol
+                        Clientes da Nomad e familiares agora contam com condições exclusivas para aprender inglês e
+                        espanhol
                         online e personalizado.
                     </p>
                     <p style="margin-top: 20px;">
@@ -88,7 +89,8 @@
                             com a Aliança <span style="color: #FFCF00;">e agora chegou sua vez!</span>
                         </h2>
                         <p>
-                            Mais de 300 mil alunos já confiaram em nosso método para aprender inglês e espanhol. Aumente sua
+                            Mais de 300 mil alunos já confiaram em nosso método para aprender inglês e espanhol. Aumente
+                            sua
                             produtividade, melhore a comunicação e ganhe confiança ao
                             se comunicar em inglês e espanhol.
 
@@ -181,7 +183,8 @@
                     </div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-question">O curso da Aliança é um curso complementar (para quem faz inglês e espanhol na
+                    <button class="faq-question">O curso da Aliança é um curso complementar (para quem faz inglês e
+                        espanhol na
                         escola)? <span>▾</span></button>
                     <div class="faq-answer">
                         <p>Não. O curso oferecido pela Aliança é um curso completo e pensado para quem já tem ou não
@@ -273,7 +276,7 @@ import MeuObjetivo from './MeuObjetivo.vue'
 import Header from './Header.vue'
 import Nav from './Nav.vue'
 import axios from 'axios'
-
+import { toast } from 'vue3-toastify'
 import homemEstudante from '@/assets/Homem-Estudante.png'
 import mulherEstudante from '@/assets/Mulher-Estudante.png'
 import homemBusiness from '@/assets/Homem-Business.png'
@@ -282,7 +285,24 @@ import homemEstudante1 from '@/assets/Homem-Estudante1.png'
 import family from '@/assets/Family.png'
 
 import { defineComponent, ref } from "vue";
+function notify(text, type) {
+    if (type) {
+        toast.error(text, {
+            autoClose: 2000,
+            position: "bottom-center",
+            theme: "colored",
+            pauseOnHover: true,
+        })
+        return
+    }
+    toast.success(text, {
+        autoClose: 2000,
+        position: "bottom-center",
+        theme: "colored",
+        pauseOnHover: true,
+    })
 
+}
 export default {
     components: {
         Circulo, Caixas, NossosProg2, Rodape, Arrume, Porque, OQuee, Escolha, NossosProg, MeuObjetivo, Header, Nav,
@@ -339,13 +359,16 @@ export default {
                     }
                 })
                 this.formData = { name: '', email: '', whatsapp: '', whatsappCountryCode: '+55' }
-                this.successMessage = true
+                notify('Seu contato foi enviado com sucesso!', 0)
+
                 setTimeout(() => {
                     this.successMessage = false
                 }, 3000)
             } catch (error) {
                 console.error('Erro ao criar lead:', error.response?.data || error.message)
-                alert('Erro ao criar lead. Verifique os dados e tente novamente.')
+                notify('Erro ao enviar seus dados de contato. Tente novamente mais tarde.', 1)
+
+
             } finally {
                 this.isLoading = false
             }
