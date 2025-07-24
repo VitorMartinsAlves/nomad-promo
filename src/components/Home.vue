@@ -247,7 +247,7 @@
                 <img id="kids-pos" class="mobile-image" style="width: 100%; padding-top: 90px;"
                     src="../assets/last-card.svg" alt="">
                 <img class="block-on-desktop"
-                    style="width: 100%; padding-top: 25px;top: 340px;position:relative;z-index: 999;"
+                    style="width: 100%; padding-top: 0;top: 300px;;position:relative;z-index: 999;"
                     src="../assets/last-card-mobile.svg" alt="">
             </a>
         </div>
