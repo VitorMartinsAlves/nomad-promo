@@ -5,11 +5,11 @@
             <div class='center-main'>
                 <div class="titulo">
                     <h2>Nomad e Aliança juntas para você aprender
-                        <span style="color: #FFCF00;"> inglês e espanhol do jeito certo
+                        <span style="color: #FFCF00;"> inglês ou espanhol do jeito certo
                             e 100% online!</span>
                     </h2>
                     <p>
-                        Clientes da Nomad e familiares agora contam com condições exclusivas para aprender inglês e
+                        Clientes da Nomad agora contam com condições exclusivas para aprender inglês e
                         espanhol
                         online e personalizado.
                     </p>
@@ -53,7 +53,7 @@
                     </div>
                     <p>Todos os nossos professores
                         têm vasta experiência em ensino
-                        e fluência em inglês e espanhol corporativo.</p>
+                        e fluência em inglês ou espanhol corporativo.</p>
                 </div>
                 <div class="card">
                     <div class="card-flex">
@@ -71,7 +71,7 @@
                     <p>Ensinamos o que realmente
                         importa para o dia a dia
                         corporativo, como comunicação
-                        em reuniões, apresentações e negociações em inglês e espanhol.</p>
+                        em reuniões, apresentações e negociações em inglês ou espanhol.</p>
                 </div>
             </div>
         </div>
@@ -89,10 +89,10 @@
                             com a Aliança <span style="color: #FFCF00;">e agora chegou sua vez!</span>
                         </h2>
                         <p>
-                            Mais de 300 mil alunos já confiaram em nosso método para aprender inglês e espanhol. Aumente
+                            Mais de 300 mil alunos já confiaram em nosso método para aprender inglês ou espanhol. Aumente
                             sua
                             produtividade, melhore a comunicação e ganhe confiança ao
-                            se comunicar em inglês e espanhol.
+                            se comunicar em inglês ou espanhol.
 
                         </p>
                     </div>
@@ -208,7 +208,7 @@
             <div class='center-main '>
                 <div id="titulo-pos" class="titulo mobile-titulo">
                     <h2>Quer <span style="color: #FFCF00;">transformar sua
-                            carreira na Nomad</span> com o inglês e espanhol?
+                            carreira na Nomad</span> com o inglês ou espanhol?
                     </h2>
                     <p>
                         Entre em contato com nosso time e descubra como podemos
