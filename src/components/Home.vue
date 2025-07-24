@@ -958,7 +958,7 @@ form {
 
     .faq-section {
         margin-top: -290px;
-        padding-top: 580px;
+        padding-top: 355px;
         background-color: #001821;
     }
 

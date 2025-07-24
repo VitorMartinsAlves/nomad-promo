@@ -39,6 +39,9 @@ import Button from '../components/utils/Button.vue'
 </script>
 
 <style lang="scss" scoped>
+#logo {
+  width: 85%;
+} 
 #stuped-button {
   display: none;
 }
@@ -97,7 +100,7 @@ nav {
   }
 
   #logo {
-    max-width: 190px;
+    width: 190px;
     // left:20px;
   }
 
