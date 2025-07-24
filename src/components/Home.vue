@@ -4,12 +4,12 @@
             <Nav />
             <div class='center-main'>
                 <div class="titulo">
-                    <h2>Xp e Aliança juntas para você aprender
-                        <span style="color: #0084D5;"> inglês do jeito certo
+                    <h2>Nomad e Aliança juntas para você aprender
+                        <span style="color: #FFCF00;"> inglês do jeito certo
                             e 100% online!</span>
                     </h2>
                     <p>
-                        Colaboradores da Xp e familiares agora contam com condições exclusivas para aprender inglês
+                        Clientes da Nomad e familiares agora contam com condições exclusivas para aprender inglês
                         online e personalizado.
                     </p>
                     <p style="margin-top: 20px;">
@@ -83,9 +83,9 @@
                 <img style="width: 65%;" class="faq-card mobile-image" src="../assets/card-faq.svg" alt="">
                 <div class='center-main'>
                     <div class="titulo">
-                        <h2>Mais de <span style="color: #0084D5;">300 mil alunos</span>
+                        <h2>Mais de <span style="color: #FFCF00;">300 mil alunos</span>
                             já alcançaram a fluência
-                            com a Aliança <span style="color: #0084D5;">e agora chegou sua vez!</span>
+                            com a Aliança <span style="color: #FFCF00;">e agora chegou sua vez!</span>
                         </h2>
                         <p>
                             Mais de 300 mil alunos já confiaram em nosso método para aprender inglês. Aumente sua
@@ -102,7 +102,7 @@
                     src="../assets/depoimento-mobile.svg" alt="">
             </div>
             <div id="faq-pos" class="container faq-space">
-                <h2 style="color: #0084D5;">Perguntas frequentes</h2>
+                <h2 style="color: #FFCF00;">Perguntas frequentes</h2>
                 <div class="faq-item" v-for="(faq, i) in faqs">
                     <button class="faq-question">Quais os 04 diferenciais da Aliança? <span>▾</span></button>
                     <div class="faq-answer">
@@ -204,8 +204,8 @@
         <div class="container ">
             <div class='center-main '>
                 <div id="titulo-pos" class="titulo mobile-titulo">
-                    <h2>Quer <span style="color: #0084D5;">transformar sua
-                            carreira na Xp</span> com o inglês?
+                    <h2>Quer <span style="color: #FFCF00;">transformar sua
+                            carreira na Nomad</span> com o inglês?
                     </h2>
                     <p>
                         Entre em contato com nosso time e descubra como podemos
@@ -213,7 +213,7 @@
                     </p>
                     <p style="margin-top: 20px;">
                         <strong>
-                            <span style="color: #0084D5;"> Garanta a fluência que você precisa para alcançar resultados
+                            <span style="color: #FFCF00;"> Garanta a fluência que você precisa para alcançar resultados
                                 globais!</span>
                         </strong>
                     </p>
