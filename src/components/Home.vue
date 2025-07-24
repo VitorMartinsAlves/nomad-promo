@@ -927,7 +927,7 @@ form {
 
     form input,
     form select {
-        border-radius: 100px;
+        border-radius: 20px;
         height: 0px;
 
     }
