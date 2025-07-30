@@ -89,7 +89,8 @@
                             com a Aliança <span style="color: #FFCF00;">e agora chegou sua vez!</span>
                         </h2>
                         <p>
-                            Mais de 300 mil alunos já confiaram em nosso método para aprender inglês ou espanhol. Aumente
+                            Mais de 300 mil alunos já confiaram em nosso método para aprender inglês ou espanhol.
+                            Aumente
                             sua
                             produtividade, melhore a comunicação e ganhe confiança ao
                             se comunicar em inglês ou espanhol.
@@ -360,7 +361,7 @@ export default {
                 })
                 this.formData = { name: '', email: '', whatsapp: '', whatsappCountryCode: '+55' }
                 notify('Seu contato foi enviado com sucesso!', 0)
-
+ 
                 setTimeout(() => {
                     this.successMessage = false
                 }, 3000)
